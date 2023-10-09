@@ -42,8 +42,15 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
+
+gem 'webpacker', '~> 5.0'
+gem 'devise'
+gem 'devise-bootstrap-views', '~> 1.0'
+gem 'cssbundling-rails'
+gem 'jsbundling-rails'
 # Use Sass to process CSS
-# gem "sassc-rails"
+ gem "sassc-rails"
+ gem 'iex-ruby-client'
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
