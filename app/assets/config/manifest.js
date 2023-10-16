@@ -4,3 +4,5 @@
 //= link_tree ../builds
 //= link application.css
  //= link custome.css
+/* app/assets/stylesheets/application.css */
+
